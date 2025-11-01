@@ -1,37 +1,37 @@
-import { ExternalLinkIcon, Github } from "lucide-react";
+import { ArrowRight, ExternalLinkIcon, Github } from "lucide-react";
 import React from "react";
 
 const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
+    title: "Electronics market",
     description:
       "A personal portfolio website to showcase my projects and skills.",
     image: "/projects/project1.png",
     tags: ["React", "Tailwind CSS", "Node.js"],
-    githubUrl: "#",
-    demoUrl: "#",
+    githubUrl: "https://github.com/Fantasitc-4-2/e-commerce-MERN",
+    demoUrl: "https://e-commerce-mern-beige.vercel.app/",
   },
   {
     id: 2,
-    title: "Portfolio Website",
+    title: "Cloth website",
     description:
       "A personal portfolio website to showcase my projects and skills.",
     image: "/projects/project2.png",
-    tags: ["React", "Tailwind CSS", "Node.js"],
-    githubUrl: "#",
+    tags: ["Angular", "Tailwind CSS", "Node.js"],
+    githubUrl: "https://github.com/Fantasitc-4-2/cloth-store-angular",
     demoUrl: "#",
   },
-  {
-    id: 3,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website to showcase my projects and skills.",
-    image: "/projects/project3.png",
-    tags: ["React", "Tailwind CSS", "Node.js"],
-    githubUrl: "#",
-    demoUrl: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "Portfolio Website",
+  //   description:
+  //     "A personal portfolio website to showcase my projects and skills.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Tailwind CSS", "Node.js"],
+  //   githubUrl: "#",
+  //   demoUrl: "#",
+  // },
 ];
 
 const ProjectsSection = () => {
@@ -93,6 +93,16 @@ const ProjectsSection = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            target="_blank"
+            href="https://github.com/NourHamdi24"
+          >
+            Check My Github <ArrowRight size={16} />
+          </a>
         </div>
       </div>
     </section>
