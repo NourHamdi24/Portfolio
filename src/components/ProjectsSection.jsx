@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Electronics market",
     description:
-      "A personal portfolio website to showcase my projects and skills.",
+      "A sleek e-commerce platform for exploring and purchasing the latest electronics with advanced filtering and secure payments",
     image: "/projects/project1.png",
     tags: ["React", "Tailwind CSS", "Node.js"],
     githubUrl: "https://github.com/Fantasitc-4-2/e-commerce-MERN",
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "Cloth website",
     description:
-      "A personal portfolio website to showcase my projects and skills.",
+      "A modern online fashion store that lets users browse, filter, and buy trendy apparel with an easy checkout",
     image: "/projects/project2.png",
     tags: ["Angular", "Tailwind CSS", "Node.js"],
     githubUrl: "https://github.com/Fantasitc-4-2/cloth-store-angular",
