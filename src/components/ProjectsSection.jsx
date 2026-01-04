@@ -4,24 +4,33 @@ import React from "react";
 const projects = [
   {
     id: 1,
+    title: "Brand Bite",
+    description:
+      "Self-service restaurant web application enabling users to browse the menu, place orders, and interact with the system through a seamless web interface.",
+    image: "/projects/project3.png",
+    tags: ["React", "Tailwind CSS", "Node.js"],
+    githubUrl: "https://github.com/GraduationMERN/restaurant-system",
+    demoUrl: "https://brandbite-three.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Electronics market",
     description:
       "A sleek e-commerce platform for exploring and purchasing the latest electronics with advanced filtering and secure payments",
     image: "/projects/project1.png",
     tags: ["React", "Tailwind CSS", "Node.js"],
     githubUrl: "https://github.com/Fantasitc-4-2/e-commerce-MERN",
-    demoUrl: "https://e-commerce-mern-beige.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Cloth website",
     description:
       "A modern online fashion store that lets users browse, filter, and buy trendy apparel with an easy checkout",
     image: "/projects/project2.png",
     tags: ["Angular", "Tailwind CSS", "Node.js"],
     githubUrl: "https://github.com/Fantasitc-4-2/cloth-store-angular",
-    demoUrl: "#",
   },
+
   // {
   //   id: 3,
   //   title: "Portfolio Website",
